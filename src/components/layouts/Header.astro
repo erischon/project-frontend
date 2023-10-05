@@ -3,8 +3,17 @@ import { Image } from "astro:assets";
 ---
 
 <header>
-  <div class="flex justify-between">
-    <Image src={"/favicon.ico"} width={24} height={24} alt="" />
+  <div class="flex justify-between p-5">
+    <div class="flex gap-4">
+      <Image
+        src={"/favicon.ico"}
+        width={24}
+        height={24}
+        alt="logo Eri Schön"
+        class="rounded"
+      />
+      <h2 class="font-semibold">Eri Schön</h2>
+    </div>
 
     <nav>
       <ul>
